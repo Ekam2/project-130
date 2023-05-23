@@ -1,0 +1,131 @@
+.heading{
+    font-size: 23px;
+    background: rgb(168, 114, 183);
+    width: 100%;
+    height: auto;
+    color: white;
+    margin: 0px;
+    font-size: 28px;
+    box-shadow: 10px 5px 50px blue;
+    box-shadow:5px 5px 5px greenyellow;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+
+    from {box-shadow: 1px 5px 50px greenyellow;}
+    to {box-shadow: 5px 5px 10px blue;}
+  
+  }
+.heading:hover{
+    color: black;
+    font-size: 35px;
+    background-color:burlywood ;
+background-size: cover;
+
+}
+
+#s{
+    color: burlywood;
+}
+
+#s:hover{
+    color: white;
+    font-size: 35px;
+
+}
+
+html{
+    height: 730px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+background-size: cover;
+background: linear-gradient(24deg, rgba(241,109,64,1) 13%, rgba(213,230,47,1) 33%, rgba(51,242,38,1) 47%, rgba(11,221,131,1) 62%, rgba(238,55,86,1) 86%);
+}
+
+#song_id{
+    float: left;
+    font-size: 26px;
+    height: fit-content;
+    margin-top: -20px;
+    width: fit-content;
+    background-size: cover;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAFakGe5Q80zikOmmtuJm98wwOSMFQECa6w&usqp=CAU);
+}
+
+#song_id:hover{
+   
+    box-shadow: 10px 10px 50px #fbfdfd;
+    float: left;
+    font-size: 26px;
+    height: fit-content;
+    margin-top: -20px;
+    width: fit-content;
+    background-size: cover;
+    background: url(https://cdn.pixabay.com/photo/2021/06/29/06/14/water-drops-6373296__340.jpg);
+}
+
+.note{
+    font-size: 15px;
+    color: black;
+}
+
+.copy_right_footer{
+    box-shadow: 10px 5px 100px wheat;
+    box-shadow:10px 10px 50px rgb(6, 241, 112);
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    font-size: 20px;
+    text-align: justify;
+    background: linear-gradient(24deg, rgba(238,55,86,1) 11%, rgba(147,150,119,1) 35%, rgba(209,86,44,1) 65%, rgba(19,21,21,1) 93%);
+   
+}
+
+@keyframes example2 {
+
+    from {box-shadow: 1px 5px 100px wheat;}
+    to {box-shadow: 5px 5px 50px rgb(6, 241, 112);}
+  
+  }
+
+.copy_right_footer:hover{
+    font-size: 28px;
+    background: url(linear2.png);
+    background-size: cover;}
+
+canvas{
+    box-shadow: 10px 5px 50px lavenderblush;
+    box-shadow:5px 5px 5px palevioletred;
+    animation-name: example3;
+    margin-top: 20px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    background: rgb(241,109,64) !important ;
+}
+
+
+canvas:hover{
+    background: linear-gradient(24deg, rgba(241,109,64,1) 13%, rgba(213,230,47,1) 33%, rgba(51,242,38,1) 47%, rgba(11,221,131,1) 62%, rgba(238,55,86,1) 86%) !important ;
+}
+
+@keyframes example3 {
+
+    from {box-shadow: 1px 5px 100px lavenderblush;}
+    to {box-shadow: 5px 5px 50px palevioletred;}
+  
+  }
